@@ -1001,7 +1001,7 @@ img{
     overflow: hidden;
   }
 
-  .project__container .swiper-button-prev{
+  .projects__container .swiper-button-prev{
     left: 1rem;
   }
   .projects__container .swiper-button-next{
@@ -1131,7 +1131,7 @@ img{
   }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 1200px){
   .section__border{
     padding-bottom: 6rem;
   }
@@ -1183,7 +1183,7 @@ img{
   .home__info{
     grid-template-rows: repeat(3, 130px);
     row-gap: 4rem;
-    margin: 16rem;
+    margin-top: 16rem;
   }
   .skills__container{
     column-gap: 10rem;
@@ -1235,18 +1235,18 @@ img{
     border-radius: 8.25rem;
   }
 
-  .project__container{
+  .projects__container{
     width: 100%;
   }
   .projects__container .swiper-button-prev,
-  .project__container .swiper-button-next{
+  .projects__container .swiper-button-next{
     font-size: 3rem;
   }
   .projects__container .swiper-button-prev{
     left: -1rem;
   }
   .projects__container .swiper-button-next{
-    left: -1rem;
+    right: -1rem;
   }
   .projects__container .swiper-slide{
     margin-bottom: 6.5rem;
