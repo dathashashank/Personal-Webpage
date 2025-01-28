@@ -1131,7 +1131,7 @@ img{
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (max-width: 1200px){
   .section__border{
     padding-bottom: 6rem;
   }
@@ -1236,7 +1236,7 @@ img{
   }
 
   .project__container{
-    width: 900px;
+    width: 100%;
   }
   .projects__container .swiper-button-prev,
   .project__container .swiper-button-next{
