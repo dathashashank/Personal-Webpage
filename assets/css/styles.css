@@ -657,6 +657,7 @@ img{
 .projects__container .swiper-pagination-bullet-active{
   background-color: var(--title-color)
 }
+
 /*=============== TESTIMONIAL ===============*/
 .testimonial{
   position: relative;
