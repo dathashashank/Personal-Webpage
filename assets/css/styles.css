@@ -953,6 +953,10 @@ img{
   bottom: 7.5rem;
 }
 
+.show-scroll{
+  bottom: 8rem;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px){
@@ -971,7 +975,7 @@ img{
   .skills__info{
     grid-template-columns: repeat(2,1fr);
   }
-  
+
   .projects__img{
     width: 200px;
     justify-self: center;
@@ -1007,6 +1011,10 @@ img{
   }
   .projects__container .swiper-button-next{
     right: 1rem;
+  }
+
+  .show-scroll{
+    bottom: 8rem;
   }
 }
 
@@ -1054,6 +1062,9 @@ img{
   .contact__container{
     justify-content: center;
     column-gap: 8rem;
+  }
+  .show-scroll{
+    bottom: 8rem;
   }
 }
 /* For large devices */
@@ -1114,7 +1125,7 @@ img{
     right: 3rem;
   }
   .show-scroll{
-    bottom: 5rem;
+    bottom: 8rem;
   }
 
   /* change background header */
