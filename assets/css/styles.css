@@ -321,19 +321,20 @@ body.dark-theme {
   transition: background .4s; /* for dark mode animation */
 }
 
-.home__perfil{
+.home__shashank{
   width: 170px;
   height: 260px;
   background: var(--gradient-color);
   border-radius: 5.5rem;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: flex-end;
+  object-fit: fill;
 }
 
-.home__perfil img{
-  width: 150px;
+.home__shashank img{
+  width: 170px;
 }
 
 .home__shape-wawes,
@@ -588,6 +589,7 @@ img{
   width: 250px;
   border-radius:  .75rem;
   margin-bottom: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 
 .projects__subtitle{
@@ -615,6 +617,7 @@ img{
 
 .projects__button:hover i{
   transform: translateX(.25rem);
+  font-weight: bold;
 }
 /* Swiper class */
 .projects__container .swiper-button-prev::after,
@@ -979,6 +982,7 @@ img{
   .projects__img{
     width: 200px;
     justify-self: center;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 4px;
   }
 }
 
@@ -1034,6 +1038,7 @@ img{
   }
   .home__info-description{
     padding-right: 0;
+    word-spacing: 2px;
   }
 
   .skills__container,
@@ -1161,13 +1166,13 @@ img{
     border-radius: 12.5rem;
   }
 
-  .home__perfil{
+  .home__shashank{
     width: 340px;
     height: 520px;
     border-radius: 10.6rem;
   }
-  .home__perfil img{
-    width: 300px;
+  .home__shashank img{
+    width: 340px;
   }
   .home__shape-wawes{
     width: 100px;
@@ -1266,6 +1271,7 @@ img{
   .projects__img{
     width: 320px;
     margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 4px;
   }
   .testimonial__container{
     width: 566px;
